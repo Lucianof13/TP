@@ -1,0 +1,4 @@
+public class Ronda {
+    public String nro;
+    public Partido [] partidosRonda = new Partido[40];
+}

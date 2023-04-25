@@ -1,0 +1,19 @@
+
+import java.nio.*;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+	
+	public Static viod main (Strin [] args){
+		
+		
+		Path partidos= new Paths.get("partidos.csv");
+		Ronda ronda1= new Ronda(1, Partidos[2]);
+		
+		Path pronostico= new Paths.get("Pronosticos.csv");
+		
+		
+		
+	}
+}

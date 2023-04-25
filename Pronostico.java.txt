@@ -1,0 +1,16 @@
+public class Pronostico {
+	
+	String persona;
+	int documento;
+	Partido[] Apuesta;
+	int puntaje;
+
+	public int puntajeTotal{
+	
+		for (int i = 0; i<= Apuesta.length()-1; i++){
+			if (Apuestas[i].
+		}
+	
+	}
+	
+}
