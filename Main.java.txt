@@ -7,9 +7,17 @@ public class Main {
 	
 	public Static viod main (Strin [] args){
 		
+		//creo un Prode
+		Prode prode1 = new Prode();
 		
-		Path partidos= new Paths.get("partidos.csv");
-		Ronda ronda1= new Ronda(1, Partidos[2]);
+		// cargo en el prode los pronosticos desde el archivo
+		
+		Path archivoP= new Paths.get("partidos.csv");
+		Scanner partidos = new Scanner(archivoP);
+		for (Partidos p: partidos.nextline()){
+			prode1.p.add
+		}
+		//Ronda ronda1= new Ronda(1, Partidos[2]);
 		
 		Path pronostico= new Paths.get("Pronosticos.csv");
 		

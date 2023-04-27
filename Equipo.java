@@ -1,23 +1,28 @@
 public class Equipo {
-    public String nombre;
-    public String Descripcion;
-    public void setNombre (String nombre){
-        nombre = nombre;
+    private String nombre;
+    private String descripcion;
+    public Equipo() {
+        String nombre;
+        String descripcion;
     }
-
-    public String getNombre() {
+    //public void Equipo(String nombre, String descripcion){
+     //   setNombre(nombre);
+    //    setDescripcion(descripcion);
+    //}
+    public void setNombre (String nombre){
+        this.nombre = nombre;
+    }
+    public String getNombre () {
         return nombre;
     }
 
     public void setDescripcion(String descripcion) {
-        Descripcion = descripcion;
+        this.descripcion = descripcion;
     }
-
-    public String getDescripcion() {
-        return Descripcion;
+    public String getDescripcion(){
+        return descripcion;
     }
-    public void Equipo(String nombre, String descripcion){
-        setNombre(nombre);
-        setDescripcion(descripcion);
+    public String getToString(){
+        return ("El eqipo se llama: "+getNombre()+" y su descripciòn es: "+ getDescripcion());
     }
 }

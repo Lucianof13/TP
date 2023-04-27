@@ -1,8 +1,50 @@
 public class Partido {
-    public Equipo equipoLocal;
-    int golesLocal;
-    public Equipo equipoVisitante ;
-    int golesVisitante;
+    String Local;
+    String Visitante;
+
+    int cantGolesLocal;
+    int cantGolesVisitante;
+
+    public void setLocal (String Local){
+        this.Local = Local;
+    }
+    public void setVisitante (String Visitante){
+        this.Visitante = Visitante;
+    }
+
+    public String getLocal () {
+        return this.Local;
+    }
+
+    public String getVisitante (){
+        return this.Visitante;
+    }
+
+    public void setGolesLocal (int cantGolesLocal){
+        this.cantGolesLocal = cantGolesLocal;
+    }
+
+    public void setGolesVisitante (int cantGolesVisitante){
+        this.cantGolesVisitante = cantGolesVisitante;
+    }
+
+    public int getGolesLocal (){
+        return this.cantGolesLocal;
+    }
+
+    public int getGolesVisitante (){
+        return this.cantGolesVisitante;
+    }
+
+    public String Resultado(int cantGolesLocal, int cantGolesVisitante ){
+        if (cantGolesLocal == cantGolesVisitante){
+            return "empate";
+        } else if (cantGolesLocal > cantGolesVisitante){
+            return "Local";
+        }else return "Visitante";
+    }
 
 
 }
+
+
